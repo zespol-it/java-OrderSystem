@@ -1,0 +1,14 @@
+/private/var/www/SkoT/java/ordersystem/src/main/java/pl/leroymerlin/ordersystem/config/SecurityConfig.java
+/private/var/www/SkoT/java/ordersystem/src/main/java/pl/leroymerlin/ordersystem/domain/product/ProductRepository.java
+/private/var/www/SkoT/java/ordersystem/src/main/java/pl/leroymerlin/ordersystem/config/CorsConfig.java
+/private/var/www/SkoT/java/ordersystem/src/main/java/pl/leroymerlin/ordersystem/domain/order/Order.java
+/private/var/www/SkoT/java/ordersystem/src/main/java/pl/leroymerlin/ordersystem/application/OrderService.java
+/private/var/www/SkoT/java/ordersystem/src/main/java/pl/leroymerlin/ordersystem/domain/order/OrderItem.java
+/private/var/www/SkoT/java/ordersystem/src/main/java/pl/leroymerlin/ordersystem/domain/order/OrderRepository.java
+/private/var/www/SkoT/java/ordersystem/src/main/java/pl/leroymerlin/ordersystem/domain/user/User.java
+/private/var/www/SkoT/java/ordersystem/src/main/java/pl/leroymerlin/ordersystem/domain/product/ProductDataLoader.java
+/private/var/www/SkoT/java/ordersystem/src/main/java/pl/leroymerlin/ordersystem/web/OrderController.java
+/private/var/www/SkoT/java/ordersystem/src/main/java/pl/leroymerlin/ordersystem/domain/order/OrderStatus.java
+/private/var/www/SkoT/java/ordersystem/src/main/java/pl/leroymerlin/ordersystem/domain/order/OrderDataLoader.java
+/private/var/www/SkoT/java/ordersystem/src/main/java/pl/leroymerlin/ordersystem/domain/product/Product.java
+/private/var/www/SkoT/java/ordersystem/src/main/java/pl/leroymerlin/ordersystem/OrderSystemApplication.java

@@ -1,0 +1,23 @@
+<div class="dashboard">
+  <h2>Lista zamówień</h2>
+  <div *ngIf="loading">Ładowanie...</div>
+  <div *ngIf="error" class="error">{{ error }}</div>
+  <ul *ngIf="orders.length">
+    <li *ngFor="let order of orders" (click)="showOrder(order)" [class.selected]="order === selectedOrder">
+      <b>{{ order.id }}</b> | {{ order.status }} | {{ order.customerId }} | {{ order.createdAt | date:'short' }}
+    </li>
+  </ul>
+  <div *ngIf="selectedOrder">
+    <h3>Szczegóły zamówienia</h3>
+    <p><b>ID:</b> {{ selectedOrder.id }}</p>
+    <p><b>Status:</b> {{ selectedOrder.status }}</p>
+    <p><b>Klient:</b> {{ selectedOrder.customerId }}</p>
+    <p><b>Data utworzenia:</b> {{ selectedOrder.createdAt | date:'short' }}</p>
+    <h4>Produkty:</h4>
+    <ul>
+      <li *ngFor="let item of selectedOrder.items">
+        {{ item.productId }} | Ilość: {{ item.quantity }} | Cena: {{ item.price }} zł
+      </li>
+    </ul>
+  </div>
+</div> 

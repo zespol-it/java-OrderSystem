@@ -1,0 +1,11 @@
+pl/leroymerlin/ordersystem/application/OrderService.class
+pl/leroymerlin/ordersystem/domain/order/OrderItem.class
+pl/leroymerlin/ordersystem/domain/order/Order.class
+pl/leroymerlin/ordersystem/domain/product/Product.class
+pl/leroymerlin/ordersystem/web/OrderController.class
+pl/leroymerlin/ordersystem/domain/order/OrderStatus.class
+pl/leroymerlin/ordersystem/domain/product/ProductRepository.class
+pl/leroymerlin/ordersystem/OrderSystemApplication.class
+pl/leroymerlin/ordersystem/domain/order/OrderRepository.class
+pl/leroymerlin/ordersystem/domain/product/ProductDataLoader.class
+pl/leroymerlin/ordersystem/domain/user/User.class
