@@ -30,7 +30,7 @@ public class OrderDataLoader implements CommandLineRunner {
                     UUID.randomUUID(),
                     OrderStatus.CREATED,
                     items,
-                    "customer" + i,
+                    "user",
                     LocalDateTime.now().minusDays(10 - i)
                 );
                 orderRepository.save(order);
