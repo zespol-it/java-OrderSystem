@@ -40,7 +40,7 @@ Aplikacja do zarządzania zamówieniami i rezerwacjami produktów dla Leroy Merl
 
 1. **Instalacja zależności:**
    ```sh
-   cd ../frontend
+   cd frontend
    npm install
    ```
 
